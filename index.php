@@ -6,6 +6,7 @@ echo 'Titolo :' . ' ' . $avatar->titolo;
 echo ' <br> Descrizione del film :' . ' ' . $avatar->descrizione;
 echo '<br>Anno di Pubblicazione :' . ' ' . $avatar->uscita;
 echo '<br>Genere :' . ' ' . $avatar->genere;
+echo '<br>' . Movie::Mycinema();
 
 
 
@@ -15,4 +16,6 @@ echo ' <br>Titolo :' . ' ' . $up->titolo;
 echo ' <br> Descrizione del film :' . ' ' . $up->descrizione;
 echo '<br>Anno di Pubblicazione :' . ' ' . $up->uscita;
 echo '<br>Genere :' . ' ' . $up->genere;
+echo '<br>' . Movie::Mycinema();
+
 ?>

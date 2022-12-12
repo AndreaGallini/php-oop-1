@@ -6,7 +6,8 @@ class Movie
     public $uscita;
     public $genere;
     public $etaFilm;
-    public $annoUscitaCinema;
+    public static $cinema = 'BoolFleex';
+
 
 
 
@@ -19,6 +20,11 @@ class Movie
 
 
 
+
+    }
+    public static function Mycinema()
+    {
+        return 'Prima Visione su ' . self::$cinema;
     }
 }
 
