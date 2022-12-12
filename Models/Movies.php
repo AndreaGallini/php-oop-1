@@ -11,7 +11,7 @@ class Movie
 
 
 
-    function __construct($_titolo, $_descrizione, $_uscita, $_genere)
+    function __construct($_titolo, $_descrizione, $_uscita, $_genere = ['null'])
     {
         $this->genere = $_genere;
         $this->uscita = $_uscita;
