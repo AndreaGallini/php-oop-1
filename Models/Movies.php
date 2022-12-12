@@ -5,6 +5,8 @@ class Movie
     public $descrizione;
     public $uscita;
     public $genere;
+    public $etaFilm;
+    public $annoUscitaCinema;
 
 
 
@@ -14,6 +16,7 @@ class Movie
         $this->uscita = $_uscita;
         $this->titolo = $_titolo;
         $this->descrizione = $_descrizione;
+
 
 
     }
