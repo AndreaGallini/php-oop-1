@@ -48,3 +48,41 @@ echo '<br>Genere :' . ' ' . implode(' , ', $up->genere) . '<br>';
 echo '<br>' . Movie::Mycinema() . '<br>';
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>
+                <?php echo 'Titolo :' . ' ' . $avatar->titolo; ?>
+            </h2>
+            <p>
+                <?php echo ' <br> Descrizione del film :' . ' ' . $up->descrizione . '<br>'; ?>
+            </p>
+            <p>
+                <?php echo '<br>Anno di Pubblicazione :' . ' ' . $up->uscita . '<br>'; ?>
+            </p>
+
+            <p>
+                <?php echo '<br>Genere :' . ' ' . implode(' , ', $up->genere) . '<br>'; ?>
+            </p>
+            <p>
+                <?php echo '<br>' . Movie::Mycinema() . '<br>'; ?>
+            </p>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
